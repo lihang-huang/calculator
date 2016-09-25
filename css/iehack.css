@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.outer {
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    margin-left: -175px;
+    top: 50%;
+    margin-top: -200px;
+    border-radius: 10px;
+    border: 2px solid #808080;
+    /*background: linear-gradient(left top, #fff, #e4e4e4);*/
+    behavior: url(../css/PIE/PIE.htc);
+    /*IE*/
+}
+
+.outer .screen {
+    height: 50px;
+    margin: 20px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #000;
+    background-color: #424242;
+    behavior: url(../css/PIE/PIE.htc);
+    /*IE*/
+}
+
+.outer .screen .screen-output {
+    font: 20px "arial";
+    line-height: 50px;
+    text-align: right;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.outer .button {
+    height: 300px;
+}
+
+.outer .button .line-1 {
+    height: 50px;
+}
+
+.outer .button .line-2 {
+    height: 100px;
+}
+
+.outer .button .line-1:first-child {
+    margin-top: 20px;
+}
+
+.outer .button .line-1 .p-cell {
+    float: left;
+    margin: 5px 10px;
+    margin-right: 5px;
+    height: 40px;
+    width: 200px;
+    filter: alpha(opacity=0);
+    /*IE*/
+}
+
+.outer .button .line-1 .cell {
+    float: left;
+    height: 30px;
+    width: 56px;
+    margin: 10px 5px;
+}
+
+.outer .button .line-1 .cell-red {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 50px;
+}
+
+.outer .button .line-1 button:first-child {
+    margin-left: 15px;
+}
+
+.outer .button .line-2 button:first-child {
+    margin-left: 15px;
+}
+
+.outer .button .line-2 .cell {
+    height: 30px;
+    width: 56px;
+    margin: 10px 5px;
+    margin-right: 1px;
+}
+
+.outer .button .line-2 .cell-2 {
+    width: 122px;
+}
+
+.outer .button .line-2 .line-2-right .cell {
+    float: right;
+    margin-top: -90px;
+    margin-right: 15px;
+    height: 80px;
+}
+
+.button .cell-red {
+    background-color: orange;
+    border: 1px solid black;
+}
+
+.button .cell-black{
+	background-color: black;
+	color: #fff;
+}
+
+.button .cell-gray{
+	background-color: #778899;
+	font-weight: bold;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>calculator_ad</title>
+    <!--[if IE]><link rel="stylesheet" href="../css/iehack.css"><![endif]-->
+    <!--[if !IE]><!--><link rel="stylesheet" href="../css/cal.css"><!--<![endif]-->
+    <script src="../js/cal.js"></script>
+</head>
+
+<body>
+    <!-- 计算器部分 -->
+    <div class="outer">
+        <div class="screen">
+            <p class="screen-output" id="screen-output"></p>
+        </div>
+        <div class="button">
+            <div class="line-1">
+                <button class="p-cell"></button>
+                <button class="cell cell-red" value="back">&larr;</button>
+                <button class="cell cell-red" value="clear">C</button>
+            </div>
+            <div class="line-1">
+                <button class="cell cell-black" value="sin">Sin()</button>
+                <button class="cell cell-black" value="cos">Cos()</button>
+                <button class="cell cell-black" value="tan">tan()</button>
+                <button class="cell cell-black" value="neg">+/-</button>
+                <button class="cell cell-black" value="part">1/x</button>
+            </div>
+            <div class="line-1">
+                <button class="cell cell-lgray" value="7">7</button>
+                <button class="cell cell-lgray" value="8">8</button>
+                <button class="cell cell-lgray" value="9">9</button>
+                <button class="cell cell-gray" value="/">&divide;</button>
+                <button class="cell cell-black" value="%">%</button>
+            </div>
+            <div class="line-1">
+                <button class="cell cell-lgray" value="4">4</button>
+                <button class="cell cell-lgray" value="5">5</button>
+                <button class="cell cell-lgray" value="6">6</button>
+                <button class="cell cell-gray" value="*">&times;</button>
+                <button class="cell cell-black" value="sqrt">&radic;</button>
+            </div>
+            <div class="line-2">
+                <div class="line-2-left">
+                    <div class="line-2-left-line">
+                        <button class="cell cell-lgray" value="1">1</button>
+                        <button class="cell cell-lgray" value="2">2</button>
+                        <button class="cell cell-lgray" value="3">3</button>
+                        <button class="cell cell-gray" value="+">+</button>
+                    </div>
+                    <div class="line-2-left-line">
+                    	<button class="cell cell-2 cell-lgray" value="0">0</button>
+                        <button class="cell cell-lgray" value="."><b>.</b></button>
+                        <button class="cell cell-gray" value="-">-</button>
+                    </div>
+                </div>
+                <div class="line-2-right">
+                	<button class="cell cell-black" value="=">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
